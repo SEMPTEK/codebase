@@ -6,6 +6,8 @@ This module can be used in a variety of ways.
 PLEASE NOTE: This module does not provide any type of user interface and is intended to be imported and used as an object.
 Local Files are files located one step up in the directory of the script file (*/software_file/main.py <-- will be located in "software_file")
 External Files are files located elsewhere on the local machine.
+JSON is utilized in this file manager for easy to read documents.
+Data must be of type Dictionary when writing to file.
 '''
 
 # check if path exists. Returns True if it does, and prints note to command line while returning False if not
